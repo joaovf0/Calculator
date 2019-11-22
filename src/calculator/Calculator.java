@@ -7,6 +7,7 @@ package calculator;
 
 import java.util.Scanner;
 
+
 /**
  *
  * @author JO40044425
@@ -28,7 +29,7 @@ public class Calculator {
         
         System.out.println("Digite um operador");
         String oper = input.next();
-       
+
         if(oper.equalsIgnoreCase("+")){
             System.out.println("Resultado = "+ (num1+num2));
         }
@@ -40,6 +41,9 @@ public class Calculator {
 
         }else if(oper.equalsIgnoreCase("/")){
             System.out.println("Resultado = "+ (num1/num2));
+           
+        }else if(oper.equalsIgnoreCase("^")){
+            System.out.println("Resultado = "+ Math.pow(num1,num2));
 
         }
     }
