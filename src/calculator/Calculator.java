@@ -45,6 +45,9 @@ public class Calculator {
         }else if(oper.equalsIgnoreCase("^")){
             System.out.println("Resultado = "+ Math.pow(num1,num2));
 
+        }else if(oper.equalsIgnoreCase(".")){
+            System.out.println("Não");
+
         }
     }
     
