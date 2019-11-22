@@ -29,8 +29,12 @@ public class Calculator {
         System.out.println("Digite um operador");
         String oper = input.next();
        
-        if(oper == "+"){
+        if(oper.equalsIgnoreCase("+")){
             System.out.println("Resultado = "+ (num1+num2));
+        }
+        else if(oper.equalsIgnoreCase("-")){
+            System.out.println("Resultado = "+ (num1-num2));
+
         }
     }
     
