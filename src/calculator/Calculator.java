@@ -35,6 +35,12 @@ public class Calculator {
         else if(oper.equalsIgnoreCase("-")){
             System.out.println("Resultado = "+ (num1-num2));
 
+        }else if(oper.equalsIgnoreCase("*")){
+            System.out.println("Resultado = "+ (num1*num2));
+
+        }else if(oper.equalsIgnoreCase("/")){
+            System.out.println("Resultado = "+ (num1/num2));
+
         }
     }
     
